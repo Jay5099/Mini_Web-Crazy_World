@@ -1,0 +1,102 @@
+/** @format */
+
+body {
+  background-image: url("bg.jpg");
+  /* background-color: rgb(113, 255, 146); */
+  background: linear-gradient(-45deg, #41ff9a, rgb(0, 183, 255));
+  animation: gradient 5s ease infinite;
+  height: 105vh;
+  font-family: sans-serif;
+}
+header {
+  background-color: #41ff9a;
+  /* background-image: linear-gradient(to right, #41ff9a, rgb(0, 183, 255)); */
+}
+.head {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 46px;
+  border-radius: 12px;
+  padding: 16px;
+}
+.logo {
+  float: left;
+  padding: 10px;
+}
+.setting {
+  float: right;
+  padding: 10px;
+}
+.profile {
+  float: right;
+  padding: 10px;
+}
+.setting > a:hover {
+  height: "35";
+  width: "35 ";
+}
+.p {
+  float: center;
+  padding: 20px;
+  font-size: large;
+}
+h1 {
+  font-size: 72px;
+  text-align: center;
+}
+h2 {
+  font-size: 46px;
+  text-align: center;
+}
+h3 {
+  font-size: 32px;
+  text-align: center;
+}
+.search {
+  text-align: center;
+  border-width: 5px;
+  border-radius: 5px;
+}
+input {
+  border: 2px solid #41ff9a;
+}
+a:link {
+  text-decoration: none;
+  color: rgb(8, 0, 13);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(8, 0, 13);
+}
+img {
+  float: right;
+}
+.p1 b {
+  padding: 10px;
+}
+.p1 h2,
+.p2 h2,
+.p3 h2 {
+  font-size: 46px;
+  text-align: left;
+  padding: 5px;
+}
+#p1 {
+  padding: 10px;
+  border: 3px solid #000c3d;
+  background-color: lightcoral;
+  height: 200px;
+}
+#p2 {
+  padding: 10px;
+  border: 3px solid #000101;
+  background-color: #f4c430;
+  height: 200px;
+}
+#p3 {
+  padding: 10px;
+  border: 3px solid #a6a8af;
+  background-color: rgb(231, 231, 231);
+  height: 200px;
+}

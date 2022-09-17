@@ -53,6 +53,6 @@ p {
   background-color: rgb(231, 231, 231);
   box-sizing: 90%;
 }
-img {
+.img img {
   border: black solid 5px;
 }

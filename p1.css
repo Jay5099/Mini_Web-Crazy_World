@@ -52,6 +52,6 @@ p {
   background-color: lightcoral;
   box-sizing: 90%;
 }
-img {
+.img img {
   border: black solid 5px;
 }
